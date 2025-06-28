@@ -47,4 +47,4 @@ Edit
 
 ## 🌐 Live Demo
 
-🔗 [Visit Live Site](note-mate-mauve.vercel.app)
+🔗 [Visit Live Site](https://note-mate-mauve.vercel.app)
