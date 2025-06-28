@@ -48,7 +48,7 @@ const Home = () => {
 
       <div className="flex flex-col sm:flex-row gap-4 sm:gap-6 items-center justify-between mb-6">
         <input
-          className="flex-1 p-3 rounded-lg bg-gray-100 focus:outline-none focus:ring-2 focus:ring-indigo-400 placeholder-gray-500"
+          className="flex-1 p-3 rounded-lg bg-gray-100 text-black focus:outline-none focus:ring-2 focus:ring-indigo-400 placeholder-gray-500"
           type="text"
           placeholder="Enter title here..."
           value={title}
@@ -64,7 +64,7 @@ const Home = () => {
       </div>
 
       <textarea
-        className="w-full h-[300px] p-4 rounded-lg bg-gray-100 resize-none focus:outline-none focus:ring-2 focus:ring-indigo-400 placeholder-gray-500"
+        className="w-full h-[300px] p-4 rounded-lg bg-gray-100 text-black resize-none focus:outline-none focus:ring-2 focus:ring-indigo-400 placeholder-gray-500"
         placeholder="Enter content here..."
         value={value}
         onChange={(e) => setValue(e.target.value)}
@@ -75,3 +75,4 @@ const Home = () => {
 };
 
 export default Home;
+
